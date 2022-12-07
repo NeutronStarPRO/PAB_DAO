@@ -864,6 +864,10 @@ h6 {
     margin-bottom: 20px;
 }
 
+.footer-box .footer-logo img {
+    width: 60px;
+}
+
 .footer-box .footer-title {
     font-size: 22px;
     padding-bottom: 18px;
@@ -1480,6 +1484,11 @@ header.header {
     border-radius: 50%;
     -webkit-animation: pulse2 linear 1000ms infinite;
     animation: pulse2 linear 1000ms infinite;
+}
+
+.temp-logo img {
+    width: 57px;
+    padding-top: 7px;
 }
 
 .header-menu {
@@ -5254,7 +5263,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     -ms-transform: scale(0.75);
     transform: scale(0.75);
     top: -8%;
-    right: -5%;
+    right: 7%;
 }
 
 .team-circle .nav-tabs .nav-item:nth-child(2n) {
@@ -5382,33 +5391,61 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 .team-circle .team-box .second {
     margin-top: 10px;
     position: relative;
-    left: 139px;
+    left: -67px;
 }
 
 .team-circle .team-box .second-h3 {
     position: relative;
-    left: 139px;
+    left: -67px;
 }
 
 .team-circle .team-box .third {
     position: relative;
-    left: 257px;
+    left: -85px;
 }
 
 .team-circle .team-box .third-h3 {
     position: relative;
-    left: 257px;
+    left: -85px;
 }
 
 .team-circle .team-box .four {
-    margin-top: 27px;
+    margin-top: 15px;
     margin-left: -130px;
+    position: relative;
+    right: 131px;
 }
 
 .team-circle .team-box .four-h3 {
     margin-top: -13px;
     width: 171px;
-    left: -115px !important;
+    left: -251px !important;
+}
+
+.team-circle .team-box .five {
+    margin-top: 77px;
+    margin-left: -151px;
+    position: relative;
+    right: -838px;
+}
+
+.team-circle .team-box .five-h3 {
+    width: 171px;
+    left: 702px !important;
+}
+
+@media only screen and (max-width: 371px) {
+    .team-circle .team-box .four-h3 {
+        left: -54% !important;
+    }
+    .team-circle .team-box .five {
+        margin-top: 36px;
+        right: -70px;
+    }
+    .team-circle .team-box .five-h3 {
+        width: 171px;
+        left: 22% !important;
+    }
 }
 
 .team-circle .team-box .item-img:before {
@@ -5610,13 +5647,6 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     .testimonial-carousel {
         padding: 75px 0 60px;
     }
-}
-
-.testimonial-carousel:before {
-    content: url("../../media/testimonial/shape_2.png");
-    position: absolute;
-    right: 18%;
-    top: 0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -11822,3 +11852,9 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 /* .green-link:hover {
     transform: scale(1.07);
 } */
+
+.mobile-logo img {
+    width: 40px;
+    position: relative;
+    top: 10px;
+}
