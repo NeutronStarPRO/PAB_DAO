@@ -3803,12 +3803,12 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9999999;
+    z-index: 99999;
 }
 
 /*------------------- 4.9 Section -------------------*/
 .section {
-    padding: 114px 0 200px;
+    padding: 54px 0 100px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -11857,4 +11857,24 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     width: 40px;
     position: relative;
     top: 10px;
+}
+
+@media only screen and (max-width: 407px) {
+h3 {
+    left: 280px;
+}
+.first-font {
+    left: 158px;
+}
+.team-circle .team-box .five {
+    right: -74px;
+    margin-top: 27px;
+}
+.team-circle .team-box .five-h3 {
+    left: 94px !important;
+}
+#logos {
+    position: relative;
+    bottom: 20%;
+}
 }
