@@ -5423,7 +5423,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 }
 
 .team-circle .team-box .five {
-    margin-top: 77px;
+    margin-top: 21px;
     margin-left: -151px;
     position: relative;
     right: -838px;
@@ -5432,6 +5432,8 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 .team-circle .team-box .five-h3 {
     width: 171px;
     left: 702px !important;
+    font-size: 20px !important;
+    bottom: 35px;
 }
 
 @media only screen and (max-width: 371px) {
@@ -11868,7 +11870,7 @@ h3 {
 }
 .team-circle .team-box .five {
     right: -74px;
-    margin-top: 27px;
+    margin-top: -42px;
 }
 .team-circle .team-box .five-h3 {
     left: 94px !important;
